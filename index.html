@@ -1,2 +1,28 @@
-<h1>hello world<h1>
-<p>wazzup its lauren this is my website :)<p>
+
+<body>
+  <h1>hello world<h1>
+  <p>wazzup its lauren this is my website :)<p>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-analytics.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBeC1ch1iyt8wAiCiP27OSKyY1lUXeopuY",
+    authDomain: "petrockplanet.firebaseapp.com",
+    databaseURL: "https://petrockplanet.firebaseio.com",
+    projectId: "petrockplanet",
+    storageBucket: "petrockplanet.appspot.com",
+    messagingSenderId: "958741111340",
+    appId: "1:958741111340:web:c4021f2964d6d395ec6789",
+    measurementId: "G-NZDP61M810"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
+ </body>
