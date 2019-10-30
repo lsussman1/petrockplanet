@@ -8,24 +8,24 @@
   <body>
     <h1>hello world<h1>
     <p>wazzup its lauren this is my website :)<p>
-  </body>
-      <form onsubmit = "return results();">
-        <label for="name">What is your name?</label>
-    	  <input type="text" id="name" name = "name">
-        <input type="submit" value="Submit">
-      </form>
-      <script type="text/javascript">
-        function results(){
+    <form onsubmit = "return results();">
+      <label for="name">What is your name?</label>
+    	<input type="text" id="name" name = "name">
+      <input type="submit" value="Submit">
+    </form>
+    <script type="text/javascript">
+       function results(){
       
-          var name = document.getElementById('name').value;
-          if (name == "lauren") {
-            document.write("I have the name" + name + "too!<br>");
-          }
-          else {
-            document.write("Hello " + name + "! lol<br>");
-      
+        var name = document.getElementById('name').value;
+        if (name == "lauren") {
+          document.write("I have the name" + name + "too!<br>");
         }
+        else {
+          document.write("Hello " + name + "! lol<br>");
+      
+       }
     </script>
+  </body>
 
 </html>
 
